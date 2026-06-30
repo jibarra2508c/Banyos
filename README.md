@@ -1,8 +1,6 @@
 # Baños — Simulación distribuida con sockets e hilos
 
-Aplicación de escritorio en **Java + Swing** que simula personas moviéndose por un espacio con baños. Lo interesante: **dos ventanas (procesos) se conectan por red mediante sockets** y las personas **cruzan de una ventana a otra** cuando alcanzan el borde, como si compartieran el mismo escenario. Práctica de programación concurrente y de comunicaciones (DAM).
-
-## Qué hace
+Aplicación de escritorio en **Java + Swing** que simula personas moviéndose por un espacio con baños. **Dos ventanas (procesos) se conectan por red mediante sockets** y las personas **cruzan de una ventana a otra** cuando alcanzan el borde, como si compartieran el mismo escenario.
 
 - Simula 6 **personas** (puntos de colores) moviéndose con velocidad y dirección aleatorias dentro de un `Panel` Swing.
 - Hay **baños** (`Banyo`) con un ocupante y una **cola** de espera por turnos.
